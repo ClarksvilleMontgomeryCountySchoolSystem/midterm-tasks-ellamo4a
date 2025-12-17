@@ -2,7 +2,7 @@ total_slices = party_pizza_mini + large + medium
 print(f"{total_slices}")
 
 people = 7
-share = total_slices / people
+share = total_slices // people
 leftover = share % total_slices
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
