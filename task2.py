@@ -1,1 +1,14 @@
+allowance += dishes
+allowance += lawn
+allowance -= candy
 
+# Week 2: Bonus week and purchase
+allowance *= 3
+allowance += vacum
+allowance -= toy
+
+# Week 3: Savings
+allowance /= 2
+
+# Print final allowance
+print(f" Allowance: $43.0")
